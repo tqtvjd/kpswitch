@@ -3,14 +3,15 @@ package cn.dreamtobe.kpswitch.demo.activity;
 import android.annotation.TargetApi;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.RecyclerView;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.ImageView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
 import cn.dreamtobe.kpswitch.demo.R;
 import cn.dreamtobe.kpswitch.util.KPSwitchConflictUtil;
